@@ -35,15 +35,21 @@
                                 <state key="normal" title="Ask">
                                     <color key="titleColor" red="0.068650849159999999" green="0.51456409690000005" blue="0.68237483499999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="askButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sq2-OO-SHw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.81176470588235294" green="0.77254901960784317" blue="0.73725490196078436" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="eightBall" destination="cTl-mp-MoZ" id="RUG-In-qfK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28.985507246376812" y="88.392857142857139"/>
+            <point key="canvasLocation" x="-361" y="-21"/>
         </scene>
     </scenes>
     <resources>
